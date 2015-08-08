@@ -18,7 +18,7 @@ public class Tile extends Node
 	{
 		super(_x,_y,Integer.parseInt(_URL.replace("tile","").replace(".png","")));
 		walkable=false;
-		backgroundTileID=backID;
+    backgroundTileID=backID;
 		URL = _URL;
 		texture = loadTexture("resources/Textures/Tiles/"+URL);
 		ID = Integer.parseInt(_URL.replace("tile","").replace(".png",""));
